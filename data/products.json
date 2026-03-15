@@ -1,0 +1,107 @@
+[
+  {
+    "name": "product 1",
+    "slug": "women-product-1",
+    "category": "women",
+    "price": "₹1200",
+    "imageCount": 1
+  },
+  {
+    "name": "product 3",
+    "slug": "women-product-3",
+    "category": "women",
+    "price": "₹1200",
+    "imageCount": 1
+  },
+  {
+    "name": "product 2",
+    "slug": "women-product-2",
+    "category": "women",
+    "price": "₹8500",
+    "imageCount": 1
+  },
+  {
+    "name": "men-product 1",
+    "slug": "men-product-1",
+    "category": "men",
+    "price": "₹15000",
+    "imageCount": 1
+  },
+  {
+    "name": "men-product 2",
+    "slug": "men-product-2",
+    "category": "men",
+    "price": "₹7000",
+    "imageCount": 1
+  },
+  {
+    "name": "men-product 3",
+    "slug": "men-product-3",
+    "category": "men",
+    "price": "₹7000",
+    "imageCount": 1
+  },
+  {
+    "name": "Bridal Gown Eloise",
+    "slug": "wedding-product-1",
+    "category": "wedding",
+    "price": "₹45000",
+    "imageCount": 1
+  },
+  {
+    "name": "Embroidered Veil",
+    "slug": "wedding-product-2",
+    "category": "wedding",
+    "price": "₹6000",
+    "imageCount": 1
+  },
+  {
+    "name": "Bridal Gown Eloise 2",
+    "slug": "wedding-product-3",
+    "category": "wedding",
+    "price": "₹6000",
+    "imageCount": 1
+  },
+  {
+    "name": "Lace Contour Bralette",
+    "slug": "lingerie-product-1",
+    "category": "lingerie",
+    "price": "₹3500",
+    "imageCount": 1
+  },
+  {
+    "name": "Silk Slip Nightdress",
+    "slug": "lingerie-product-2",
+    "category": "lingerie",
+    "price": "₹5500",
+    "imageCount": 1
+  },
+  {
+    "name": "Silk Slip lingerie 2",
+    "slug": "lingerie-product-3",
+    "category": "lingerie",
+    "price": "₹5500",
+    "imageCount": 1
+  },
+  {
+    "name": "Silk Slip lingerie 3",
+    "slug": "lingerie-product-4",
+    "category": "lingerie",
+    "price": "₹5500",
+    "imageCount": 1
+  },
+  {
+    "name": "Silk lingerie 4",
+    "slug": "lingerie-product-5",
+    "category": "lingerie",
+    "price": "₹5500",
+    "imageCount": 1
+  },
+  {
+    "name": "Silk Slip lingerie 5",
+    "slug": "lingerie-product-6",
+    "category": "lingerie",
+    "price": "₹5500",
+    "imageCount": 1
+  }
+]
