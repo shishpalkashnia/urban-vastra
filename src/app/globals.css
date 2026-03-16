@@ -37,4 +37,13 @@
     font-family: var(--font-heading), serif;
     letter-spacing: -0.02em;
   }
+
+  /* Hide default video controls including iOS play button */
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+  video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+  }
 }

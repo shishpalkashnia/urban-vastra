@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -14,12 +15,15 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="w-full lg:w-1/2 aspect-[4/5] bg-brand-beige relative overflow-hidden flex items-center justify-center text-brand-black/40 text-sm tracking-widest uppercase font-medium"
+            className="w-full lg:w-1/2 min-h-[500px] aspect-[4/5] bg-brand-beige relative overflow-hidden flex items-center justify-center text-brand-black/40 text-sm tracking-widest uppercase font-medium"
           >
-            <img
+            <Image
               src="/editorial/editorial.jpg"
               alt="Urban Vastra Editorial"
-              className="w-full h-full object-cover object-top"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover object-top"
+              loading="lazy"
             />
           </motion.div>
 

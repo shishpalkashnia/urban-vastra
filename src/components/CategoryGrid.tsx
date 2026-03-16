@@ -51,6 +51,7 @@ export default function CategoryGrid({ onSelectCategory }: CategoryGridProps) {
                   src={`/categories/${cat.id}/cover.jpg`}
                   alt={`${cat.name} Collection`}
                   fill
+                  priority={index < 2}
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />

@@ -68,27 +68,24 @@ export default function VisitStore() {
 
           </motion.div>
 
-          {/* Map Placeholder */}
+          {/* Map */}
           <motion.div 
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="bg-brand-beige/10 min-h-[400px] flex items-center justify-center border border-brand-beige/20 relative overflow-hidden group"
+            className="bg-brand-beige/10 min-h-[400px] flex items-center justify-center border border-brand-beige/20 relative overflow-hidden group w-full"
           >
-            <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
-              <a
-                href="https://maps.google.com"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 border border-brand-ivory text-brand-ivory px-6 py-3 uppercase tracking-widest text-xs hover:bg-brand-ivory hover:text-brand-black transition-colors duration-300"
-              >
-                <MapPin size={16} /> Get Directions
-              </a>
-            </div>
-            <div className="text-brand-beige/40 font-heading tracking-widest uppercase text-xl text-center">
-              [ Map Integration ]
-            </div>
+            <iframe 
+              src="https://maps.google.com/maps?q=29°22'39.6%22N%2075°10'10.8%22E&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0, position: 'absolute', top: 0, left: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Urban Vastra Location"
+            ></iframe>
           </motion.div>
         </div>
       </div>
