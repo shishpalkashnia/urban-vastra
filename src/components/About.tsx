@@ -31,25 +31,49 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="w-full lg:w-1/2 space-y-8"
           >
-            <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl text-brand-black leading-tight">
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="font-heading text-4xl md:text-5xl lg:text-6xl text-brand-black leading-tight"
+            >
               The Essence of <br />
               <span className="text-brand-gold italic">Modern Elegance</span>
-            </h2>
+            </motion.h2>
 
-            <p className="text-brand-black/80 text-lg leading-relaxed font-light">
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="text-brand-black/80 text-lg leading-relaxed font-light"
+            >
               Founded on the principles of minimalist design and premium craftsmanship, Urban Vastra is a destination for those who appreciate understated luxury. We believe in the power of timeless silhouettes and exceptional fabrics.
-            </p>
+            </motion.p>
 
-            <p className="text-brand-black/80 text-lg leading-relaxed font-light">
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="text-brand-black/80 text-lg leading-relaxed font-light"
+            >
               Every garment in our collection is thoughtfully designed to transcend seasons, offering versatile elegance that effortlessly elevates your everyday wardrobe.
-            </p>
+            </motion.p>
 
-            <div className="pt-4">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="pt-4"
+            >
               <span className="block w-24 h-px bg-brand-gold mb-8"></span>
               <p className="font-heading text-xl text-brand-black tracking-widest uppercase">
                 Est. 2024
               </p>
-            </div>
+            </motion.div>
           </motion.div>
 
         </div>

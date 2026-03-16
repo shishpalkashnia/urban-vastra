@@ -1,107 +1,107 @@
 [
   {
-    "name": "product 1",
+    "name": "Midnight Onyx Blouse",
     "slug": "women-product-1",
     "category": "women",
-    "price": "₹1200",
+    "price": "₹1,200",
     "imageCount": 1
   },
   {
-    "name": "product 3",
+    "name": "Amber Rust Knit Dress",
     "slug": "women-product-3",
     "category": "women",
-    "price": "₹1200",
+    "price": "₹1,200",
     "imageCount": 1
   },
   {
-    "name": "product 2",
+    "name": "Ethereal Pearl Wrap",
     "slug": "women-product-2",
     "category": "women",
-    "price": "₹8500",
+    "price": "₹8,500",
     "imageCount": 1
   },
   {
-    "name": "men-product 1",
+    "name": "Obsidian Wool Trench",
     "slug": "men-product-1",
     "category": "men",
-    "price": "₹15000",
+    "price": "₹15,000",
     "imageCount": 1
   },
   {
-    "name": "men-product 2",
+    "name": "Slate Grey Linen Suit",
     "slug": "men-product-2",
     "category": "men",
-    "price": "₹7000",
+    "price": "₹7,000",
     "imageCount": 1
   },
   {
-    "name": "men-product 3",
+    "name": "Navy Twill Tailored Trousers",
     "slug": "men-product-3",
     "category": "men",
-    "price": "₹7000",
+    "price": "₹7,000",
     "imageCount": 1
   },
   {
     "name": "Bridal Gown Eloise",
     "slug": "wedding-product-1",
     "category": "wedding",
-    "price": "₹45000",
+    "price": "₹45,000",
     "imageCount": 1
   },
   {
-    "name": "Embroidered Veil",
+    "name": "Chantilly Lace Embroidered Veil",
     "slug": "wedding-product-2",
     "category": "wedding",
-    "price": "₹6000",
+    "price": "₹6,000",
     "imageCount": 1
   },
   {
-    "name": "Bridal Gown Eloise 2",
+    "name": "Ivory Duchess Satin Gown",
     "slug": "wedding-product-3",
     "category": "wedding",
-    "price": "₹6000",
+    "price": "₹6,000",
     "imageCount": 1
   },
   {
-    "name": "Lace Contour Bralette",
+    "name": "Scalloped Lace Contour Bralette",
     "slug": "lingerie-product-1",
     "category": "lingerie",
-    "price": "₹3500",
+    "price": "₹3,500",
     "imageCount": 1
   },
   {
-    "name": "Silk Slip Nightdress",
+    "name": "Mulberry Silk Slip Nightdress",
     "slug": "lingerie-product-2",
     "category": "lingerie",
-    "price": "₹5500",
+    "price": "₹5,500",
     "imageCount": 1
   },
   {
-    "name": "Silk Slip lingerie 2",
+    "name": "Champagne Silk Camisole",
     "slug": "lingerie-product-3",
     "category": "lingerie",
-    "price": "₹5500",
+    "price": "₹5,500",
     "imageCount": 1
   },
   {
-    "name": "Silk Slip lingerie 3",
+    "name": "Rosewater Silk Robe",
     "slug": "lingerie-product-4",
     "category": "lingerie",
-    "price": "₹5500",
+    "price": "₹5,500",
     "imageCount": 1
   },
   {
-    "name": "Silk lingerie 4",
+    "name": "Noir Satin Teddy",
     "slug": "lingerie-product-5",
     "category": "lingerie",
-    "price": "₹5500",
+    "price": "₹5,500",
     "imageCount": 1
   },
   {
-    "name": "Silk Slip lingerie 5",
+    "name": "Opalescent Silk Chemise",
     "slug": "lingerie-product-6",
     "category": "lingerie",
-    "price": "₹5500",
+    "price": "₹5,500",
     "imageCount": 1
   }
 ]

@@ -16,11 +16,12 @@ export default function ProductCard({ name, slug, category, price }: ProductCard
 
   return (
     <Link href={`/product/${slug}`} className="group block w-full">
-      <div className="relative overflow-hidden aspect-[3/4] bg-brand-beige/20 mb-4">
+      <div className="relative overflow-hidden aspect-[3/4] bg-brand-beige/20 mb-4 group-hover:shadow-lg transition-shadow duration-500">
         <motion.div
           className="w-full h-full relative"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
+          initial={{ scale: 1 }}
+          whileHover={{ scale: 1.08 }}
+          transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           <Image
             src={imageUrl}

@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-black text-brand-ivory py-16">
-      <div className="container mx-auto px-6 lg:px-12 flex flex-col md:flex-row justify-between items-center md:items-start gap-12">
-        <div className="text-center md:text-left">
+    <footer className="bg-brand-black text-brand-ivory py-12 md:py-16">
+      <div className="container mx-auto px-6 lg:px-12 flex flex-col md:flex-row justify-between items-center md:items-start gap-10 md:gap-12">
+        <div className="text-center md:text-left flex flex-col items-center md:items-start">
           <Link href="/" className="font-heading text-2xl tracking-widest uppercase">
             Urban Vastra
           </Link>
-          <p className="mt-4 text-sm tracking-wide text-brand-beige">
+          <p className="mt-4 text-sm tracking-wide text-brand-beige max-w-xs text-center md:text-left">
             Premium fabrics and garments crafted for modern elegance.
           </p>
         </div>

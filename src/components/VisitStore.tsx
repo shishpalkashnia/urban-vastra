@@ -1,22 +1,37 @@
+"use client";
+
 import Link from "next/link";
 import { Copy, MapPin, Phone, MessageCircle } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function VisitStore() {
   return (
-    <section id="visit-store" className="py-24 bg-brand-black text-brand-ivory">
+    <section id="visit-store" className="py-24 md:py-32 bg-brand-black text-brand-ivory">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="max-w-4xl mx-auto text-center mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8 }}
+          className="max-w-4xl mx-auto text-center mb-16"
+        >
           <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl mb-6">
             Visit Our Boutique
           </h2>
           <p className="text-brand-beige text-lg font-light tracking-wide max-w-2xl mx-auto">
             Experience the exquisite fabrics and tailoring in person. Our style consultants are ready to assist you.
           </p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Details */}
-          <div className="flex flex-col justify-center space-y-10 border border-brand-beige/20 p-10 lg:p-16">
+          <motion.div 
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex flex-col justify-center space-y-10 border border-brand-beige/20 p-10 lg:p-16"
+          >
 
             <div className="flex items-start gap-4">
               <MapPin className="text-brand-gold mt-1 flex-shrink-0" size={24} />
@@ -51,10 +66,16 @@ export default function VisitStore() {
               </a>
             </div>
 
-          </div>
+          </motion.div>
 
           {/* Map Placeholder */}
-          <div className="bg-brand-beige/10 min-h-[400px] flex items-center justify-center border border-brand-beige/20 relative overflow-hidden group">
+          <motion.div 
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="bg-brand-beige/10 min-h-[400px] flex items-center justify-center border border-brand-beige/20 relative overflow-hidden group"
+          >
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
               <a
                 href="https://maps.google.com"
@@ -68,7 +89,7 @@ export default function VisitStore() {
             <div className="text-brand-beige/40 font-heading tracking-widest uppercase text-xl text-center">
               [ Map Integration ]
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
